@@ -1,0 +1,17 @@
+Searching 186 files for "signup_path"
+
+/home/samsun/railsProjects/sample_app/spec/requests/static_pages_spec.rb:
+   54  
+   55    describe "Sign Up" do
+   56:     before {visit signup_path}
+   57      let(:heading) { 'Sign Up' }
+   58      let(:page_title) { 'Sign Up' }
+
+/home/samsun/railsProjects/sample_app/spec/requests/user_pages_spec.rb:
+    4    subject {page}		
+    5    describe "signup page" do
+    6:   	before {visit signup_path}
+    7      it { should have_content('Sign Up') }
+    8      it { should have_title('Sign Up') }
+
+2 matches across 2 files
